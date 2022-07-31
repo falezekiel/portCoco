@@ -270,6 +270,9 @@ overflow: hidden;
     height: 30%;
 
 }
+.imgDigitales{
+    margin-top: -11px;
+}
 #contEmpresariales{
     padding: 3px;
 }
@@ -313,7 +316,7 @@ overflow: hidden;
 
 }
 #clientesc{
-    margin-top: 400px;
+    margin-top: 450px;
 }
 .imagenesClientes{
     display: block;
@@ -360,6 +363,7 @@ overflow: hidden;
 .mapa{
     width: 100%;
     height: 30%;
+    padding-left: 0px;
 }
 .datos{
     margin-top: 30px;
