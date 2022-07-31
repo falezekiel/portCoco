@@ -1,0 +1,226 @@
+
+* {
+
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+
+/* body{
+    background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+} */
+body{
+   
+}
+
+/* header */
+
+._header{
+    display: flex;
+    padding: 2rem;
+    flex-direction: row;
+justify-content: space-evenly;
+
+}
+
+._nav{
+    width: 50%;
+}
+
+._nav ul{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+._nav ul li{
+    list-style: none;
+}
+
+.itemNav a{
+    text-decoration: none;
+}
+/* main */
+
+main{
+    padding: 2rem;
+}
+.presentacion{
+    display: grid;
+    background-color: white;
+    grid-template-columns:50% 50%;
+    height: 50%;
+    overflow: hidden;
+}
+
+
+
+.descPresentacion{
+    text-align: center;
+    margin-top: 10%;
+}
+.imgPresentacion img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.servicios{
+    
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    padding: 3rem;
+    
+}
+
+.digitales{
+    
+    display: grid;
+    background-color: white;
+    grid-template-columns:2 50%;
+    grid-auto-rows: 30rem;
+    overflow:hidden;
+   
+}
+
+.descDigitales{
+    color: white;
+    background-color: rgb(13, 13, 68);
+    
+}
+
+.contDigitales{
+  text-align: center;
+  margin-top: 15%;
+}
+
+.imgDigitales img{
+    width: 100%;
+    height: 100%;
+}
+
+.separador{
+    width: 100%;
+    height: 4rem;
+    background-color: white;
+    display: block;
+}
+
+#sobreMi{
+    justify-content: center;
+    
+}
+.descSobreMi{
+    margin-left: 20%;
+    margin-right: 0;
+}
+
+.imgSobreMi img {
+    width: 50%;
+    height: 100%;
+    margin-left: 20%;
+}
+
+.clientes{
+    text-align:left;
+    background-color: pink;
+
+    
+}
+
+.imagenesClientes{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow:auto;
+    margin:auto;
+}
+
+#inti{
+   margin:auto;
+   width: 100%;
+}
+
+#cedi{
+  margin: auto;
+  width: 100%;
+}
+.servicios2{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.serviciosCards{
+display: flex;
+flex-direction: row;
+margin-bottom: 4rem;
+overflow: hidden;
+}
+
+.card{
+    margin: auto;
+    background-color: rgb(250, 252, 252);
+    width: 25%;
+    height: 30rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+
+}
+.textCard{
+    text-align: center;
+    margin: auto;
+}
+
+.textCard p {
+    padding: 1rem;
+}
+
+#clientesc{
+    background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+    padding: 3rem;
+    width: 100%;
+}
+
+/* footer */
+.contacto{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+    background-color:rgb(250, 252, 252) ;
+    padding: 2rem;
+    color: white;
+}
+.mapa{
+    margin-right: 30%;
+    width: 40%;
+    height: 20rem;
+}
+
+.datos{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    margin: auto;
+    margin-right: 15%;
+
+}
+
+.datos div{
+    padding: 1rem;
+}
+.iconos{
+    background-color: white;
+    border-radius: 10%;
+    width: 2rem;
+    height: 2rem;
+    
+}
+
